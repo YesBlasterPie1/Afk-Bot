@@ -10,11 +10,11 @@ const logger = loggers.logger;
 
 function createBot() {
    const bot = mineflayer.createBot({
-      username: config['bot-account']['username'],
-      password: config['bot-account']['password'],
+      username: config['bot-account']['Noob-Bot'],
+      password: config['bot-account']['Arnav@123'],
       auth: config['bot-account']['type'],
-      host: config.server.ip,
-      port: config.server.port,
+      host: config.Legendslife.aternos.me,
+      port: config.47641,
       version: config.server.version,
    });
 
